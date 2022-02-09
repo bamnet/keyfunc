@@ -1,9 +1,10 @@
 package keyfunc
 
 import (
-	"crypto/ed25519"
 	"encoding/base64"
 	"fmt"
+
+	"golang.org/x/crypto/ed25519"
 )
 
 const (
